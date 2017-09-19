@@ -1,11 +1,4 @@
-/* 
-(C) OOMusou 2008 http://oomusou.cnblogs.com
 
-Filename    : Sobel.v
-Compiler    : Quartus II 8.0
-Description : Demo how to implement Sobel Edge Detector on DE2-70
-Release     : 09/27/2008 1.0
-*/
 
 module block_found (iCLK, iRST_N, x_cnt,y_cnt, iDVAL,iDATA,WB,oDVAL, oDATA_x,oDATA_y,oDATA_x_eye,oDATA_y_eye,load);
   input            iCLK;
